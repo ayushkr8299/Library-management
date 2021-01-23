@@ -42,7 +42,7 @@ def mark_book_prompt():
     
 def delete_book_prompt():
     list_book()
-    delete_book=input(" enter the book you want to delete : ")
+    delete_book=input(" enter the book to delete : ")
     delete_book_fn(delete_book)
     
 
